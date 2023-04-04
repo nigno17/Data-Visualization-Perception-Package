@@ -1,0 +1,6 @@
+{
+  "UnityEngine.Perception.GroundTruth.Consumers.SoloEndpoint.output_path": {
+    "type": "String",
+    "value": "C:/Users/Nigno17/Documents/Datasets/ProvaDV/ProvaPerception"
+  }
+}
