@@ -8,17 +8,17 @@ using UnityEngine.Perception.Randomization.Samplers;
 [AddRandomizerMenu("SpawnObjectRandomizer")]
 public class SpawnObjectRandomizer : Randomizer
 {
-    public GameObject [] ObjectsList;
+    public CategoricalParameter<GameObject> prefabs;
 
-    public Vector3 spawnPos = Vector3.zero;
+    public Vector3Parameter spawnPos;
 
     private GameObject activeGO;
 
     protected override void OnIterationStart()
     {
-        if (ObjectsList.Length > 0)
+        if (prefabs is not null)
         {
-            activeGO = GameObject.Instantiate(ObjectsList[UnityEngine.Random.Range(0, ObjectsList.Length)], spawnPos, Quaternion.identity);
+            activeGO = GameObject.Instantiate(prefabs.Sample(), spawnPos.Sample(), Quaternion.identity);
         }
     }
 

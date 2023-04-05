@@ -333,17 +333,61 @@ MonoBehaviour:
         m_Enabled: 1
         collapsed: 0
         <enabledStateCanBeSwitchedByUser>k__BackingField: 1
-        ObjectsList:
-        - {fileID: 2116906340935875447, guid: 14e5f9d84e699cc42b8d425258fd454e, type: 3}
-        - {fileID: 3565273632330016987, guid: 0d3ef54bc7ebc054ca77b6e016159aea, type: 3}
-        - {fileID: 6942668573907487730, guid: b74b742c28a9d3645b9921220520b655, type: 3}
-        - {fileID: 5914029764704883592, guid: 383185d377a76f3459ba40e602c9466d, type: 3}
-        - {fileID: 7120126887883689910, guid: 24d1f0723df73bb4c91cf953b21e0548, type: 3}
-        - {fileID: 2725291829655527756, guid: 2d73a132fff54ab46978a8ce47658145, type: 3}
-        - {fileID: 4067066368124452801, guid: fdb93cdeffc5bc24780b799012568e9e, type: 3}
-        - {fileID: 6351482456778474379, guid: c6ad8f6e4a589924da940b9605045c5b, type: 3}
-        - {fileID: 2360999954619723223, guid: 591a0f100f3732d4da7e667abb1e6b01, type: 3}
-        spawnPos: {x: 0, y: 0, z: 0}
+        prefabs:
+          collapsed: 0
+          probabilities:
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          - 0.11111111
+          uniform: 1
+          m_Categories:
+          - {fileID: 2116906340935875447, guid: 14e5f9d84e699cc42b8d425258fd454e, type: 3}
+          - {fileID: 3565273632330016987, guid: 0d3ef54bc7ebc054ca77b6e016159aea, type: 3}
+          - {fileID: 6942668573907487730, guid: b74b742c28a9d3645b9921220520b655, type: 3}
+          - {fileID: 5914029764704883592, guid: 383185d377a76f3459ba40e602c9466d, type: 3}
+          - {fileID: 7120126887883689910, guid: 24d1f0723df73bb4c91cf953b21e0548, type: 3}
+          - {fileID: 2725291829655527756, guid: 2d73a132fff54ab46978a8ce47658145, type: 3}
+          - {fileID: 4067066368124452801, guid: fdb93cdeffc5bc24780b799012568e9e, type: 3}
+          - {fileID: 6351482456778474379, guid: c6ad8f6e4a589924da940b9605045c5b, type: 3}
+          - {fileID: 2360999954619723223, guid: 591a0f100f3732d4da7e667abb1e6b01, type: 3}
+        spawnPos:
+          collapsed: 0
+          x:
+            rid: 4907177692016148493
+          y:
+            rid: 4907177692016148490
+          z:
+            rid: 4907177692016148491
+    - rid: 4907177692016148490
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 4907177692016148491
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
+    - rid: 4907177692016148493
+      type: {class: ConstantSampler, ns: UnityEngine.Perception.Randomization.Samplers,
+        asm: Unity.Perception.Runtime}
+      data:
+        value: 0
+        <minAllowed>k__BackingField: 0
+        <maxAllowed>k__BackingField: 0
+        <shouldCheckValidRange>k__BackingField: 0
 --- !u!4 &104533131
 Transform:
   m_ObjectHideFlags: 0
@@ -794,7 +838,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -27}
+  m_LocalPosition: {x: 0, y: 0, z: -27}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
